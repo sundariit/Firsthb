@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+    <!DOCTYPE hibernate-mapping PUBLIC  
+     "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+     "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+      
+     <hibernate-mapping>  
+      <class name="Bank" table="Bank">  
+        <property name="name"></property>         
+        <property name="accountnumber"></property>  
+        <property name="bankname"></property>  
+        <property name="customerid"></property>          
+      </class>  
+                
+     </hibernate-mapping>  
