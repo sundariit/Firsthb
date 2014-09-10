@@ -5,10 +5,10 @@
       
      <hibernate-mapping>  
       <class name="Bank" table="Bank">  
-        <property name="name"></property>         
+        <property name="name1"></property>         
         <property name="accountnumber"></property>  
-        <property name="bankname"></property>  
-        <property name="customerid"></property>          
+        <property name="bankname1"></property>  
+        <property name="customerid1"></property>          
       </class>  
                 
      </hibernate-mapping>  
